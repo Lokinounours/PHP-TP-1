@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction au PHP</title>
+</head>
+
+<body>
+    <!-- <h1>Bonjour Paris!</h1>
+    Si on veut que le code php s'affiche il faut sauvegarde le fichier au format .php
+    <?php
+        echo "Bonjour tout le monde";
+    ?> -->
+    <h1>Tableau de multiplication</h1>
+    <form action="multiplication.php" method="post">
+        <table>
+            <tr>
+                <td>
+                    Ligne min:
+                </td>
+                <td>
+                    <input type="text" name="ligneMin">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ligne max:
+                </td>
+                <td>
+                    <input type="text" name="ligneMax">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Colonne min:
+                </td>
+                <td>
+                    <input type="text" name="colonneMin">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Colonne max:
+                </td>
+                <td>
+                    <input type="text" name="colonneMax">
+                </td>
+            </tr>
+            <tr colspan="2" align="center">
+                <td><input type="submit" value="Valider"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

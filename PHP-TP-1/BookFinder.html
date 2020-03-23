@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Finder</title>
+</head>
+
+<body>
+    <h1>Trouveur de livres</h1>
+    <form action="trouveurLivres.php" method="POST">
+        <table>
+            <tr>
+                <td>Titre: </td>
+                <td><input type="text" name="titre"></td>
+            </tr>
+            <tr>
+                <td>Auteur: </td>
+                <td><input type="text" name="auteur"></td>
+            </tr>
+            <tr>
+                <td>Année: </td>
+                <td><input type="text" name="annee"></td>
+            </tr>
+            <tr>
+                <td>Editeur: </td>
+                <td><input type="text" name="editeur"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Rechercher" name="button1">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
